@@ -37,6 +37,51 @@ Python-101 provides a solid introduction to the core concepts of Python, focusin
 
 This project is designed to provide hands-on examples and exercises for users to follow along and practice.
 
+## Project Structure
+
+This is the structure of the code-start directory: 
+
+```bash
+code-start
+├── 01_hello
+│   ├── comments.py          # Lesson on comments
+│   └── hello.py             # First "Hello, World!" script
+│
+├── 02_variables
+│   ├── variables.py         # Introduction to variables, types, and assignment
+│   └── constants.py         # Explain constants (using naming conventions in Python)
+│
+├── 03_data_types
+│   ├── numbers.py           # Working with numbers (int, float, complex)
+│   ├── strings.py           # Working with strings, methods, and formatting
+│   └── booleans.py          # Introduction to Boolean values and logic
+│
+├── 04_control_structures
+│   ├── if_else.py           # Conditionals (if, else, elif)
+│   ├── loops.py             # Loops (for, while, break, continue)
+│   └── nested_loops.py      # Nested loops with examples
+│
+├── 05_functions
+│   ├── functions_intro.py    # How to define and use functions
+│   ├── parameters.py         # Parameters, default values, and return values
+│   └── recursion.py          # An introduction to recursion (optional, for later stages)
+│
+├── 06_error_handling
+│   ├── exceptions.py        # Introduction to exceptions and try-except blocks
+│   └── raise_assert.py      # Raising exceptions and using assertions
+│
+├── 07_file_handling
+│   ├── reading_files.py     # Reading from files
+│   ├── writing_files.py     # Writing to files
+│   └── appending_files.py   # Appending data to files
+│
+└── 08_oop_basics
+    ├── oop_intro.py         # Introduction to Object-Oriented Programming (classes, objects)
+    ├── inheritance.py       # Inheritance, methods overriding, etc.
+    └── encapsulation.py     # Encapsulation and data hiding
+```
+
+
 ## Getting Started
 
 1. **Clone the Repository**:
