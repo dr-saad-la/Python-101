@@ -10,7 +10,8 @@
 
 - [Overview](#overview)
 - [Getting Started](#getting-started)
-- [Topics Covered](#topics-covered)
+- [Topics Covered](#contribution)
+- [Pre-requisistes](#prerequisites)
 - [License](#license)
 
 ## Overview
@@ -50,6 +51,47 @@ This project is designed to provide hands-on examples and exercises for users to
    ```bash
    python example.py
    ```
+
+
+## Contribution
+
+Contributions to Python-101 are focused on adding examples and exercises to help users deepen their understanding of Python fundamentals.
+
+How to Contribute
+
+  1. **Fork the Repository**: Click the “Fork” button at the top right of this repository to create a copy in your own GitHub account.
+  2. **Clone the Forked Repository**: Clone your forked repository to your local machine:
+
+  ```sh
+  git clone https://github.com/dr-saad-la/python-101.git
+  ```
+
+	3.	**Create a New Branch**: Always work on a new branch for your contributions:
+	```sh
+	git checkout -b add-exercise-branch
+	```
+	4.	Add Your Examples or Exercises:
+		- Add your Python examples or exercises to the appropriate directory.
+		- Make sure your code is well-documented and includes comments where necessary.
+	5.	**Commit Your Changes**: After making your changes, commit them:
+	```sh
+	git add .
+	git commit -m "Added new examples and exercises"
+	```
+	6.	**Push to Your Fork**: Push the changes to your forked repository:
+	```sh
+	git push origin add-exercise-branch
+	```
+	7.	Submit a Pull Request:
+		- Go to the original repository on GitHub and click “New Pull Request”.
+		- Select your fork and branch, and submit the pull request with a description of your contribution.
+		- Once your pull request is reviewed, it may be merged into the main repository.
+
+## Guidelines
+
+- Focus on Python essentials (examples and exercises should align with the current topics).
+- Follow best practices for Python code (PEP 8) and ensure readability with proper comments.
+- Make sure to test your code before submitting.
 
 ## Prerequisites
 
