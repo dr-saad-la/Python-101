@@ -112,24 +112,26 @@ How to Contribute
   ```
 
   3. **Create a New Branch**: Always work on a new branch for your contributions:
-	
-    ```bash
-	git checkout -b add-exercise-branch
-	```
+
+  ```bash
+  git checkout -b add-exercise-branch
+  ```
   4. Add Your Examples or Exercises:
 		- Add your Python examples or exercises to the appropriate directory.
 		- Make sure your code is well-documented and includes comments where necessary.
   5. **Commit Your Changes**: After making your changes, commit them:
-	
-    ```bash
-	git add .
-	git commit -m "Added new examples and exercises"
-	```
+  
+  ```bash
+  git add .
+  git commit -m "Added new examples and exercises"
+  ```
+  
   6. **Push to Your Fork**: Push the changes to your forked repository:
-	
-   ```sh
-   git push origin add-exercise-branch
-   ```
+
+  ```sh
+  git push origin add-exercise-branch
+  ```
+  
   7. Submit a Pull Request:
 		- Go to the original repository on GitHub and click “New Pull Request”.
 		- Select your fork and branch, and submit the pull request with a description of your contribution.
